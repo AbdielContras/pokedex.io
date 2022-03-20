@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Launch X</title>
+    <link rel="stylesheet" href="./pokedexLaunchX.css">
+</head>
+
+<body>
+    <!--Caratula Pokedex-->
+    <div class="titulo">
+        <h1>Pokedex LaunchX</h1>
+
+    </div>
+
+   
+    <div class="instruccion">
+        <h3>Ingresa el nombre del Pokemon:</h3>
+    </div>
+
+    <div class="pokeNombre">
+        <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" >
+        <br>
+    </div>
+        
+    <div class="pokeImagen">
+        <img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" width="250px"><br>
+    </div>
+        
+    <div class="botonBuscador">
+        <button onclick="fetchPokemon()">Buscar Pokemon</button><br>
+    </div>
+    
+
+    <div class="datos">
+        <div class="nombre">
+            <input type="text" id="numero" value="0" disabled="true" hidden="true">
+            <p class="text__name"># y Nombre</p>
+            <input type="text" class="text__name" id="nombre" value="" disabled="true">
+            <p class="text__name">Tipo</p>
+            <input type="text" class="text__name" id="tipo" value="" disabled="true">
+            <p class="text__name">Estadísticas</p>
+            <textarea id="estadisticas" class="stats" cols="30" rows="3" disabled="true"></textarea>
+            <p class="text__name">Movimientos</p>
+            <textarea id="movimientos" class="stats" cols="30" rows="3" disabled="true"></textarea>
+        </div>
+
+    </div>
+</body>
+
+<footer>
+        <script src="./pokedexLaunchX.js"></script>
+</footer>
+
+</html>

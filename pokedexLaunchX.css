@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url('./img/fondoPokedex.png');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: auto 100vh;    
+}
+
+.titulo{
+    margin: auto;
+    text-align: center;
+    width: 300px; 
+    height: 40px; 
+    background:red;
+}
+
+
+.instruccion{
+    width: 100%;
+    margin-top: 11%;
+    margin-left: 20%;
+}
+
+.pokeNombre{
+    width: 19%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    margin-top: -10px;
+    margin-left: 395px;
+    
+}
+
+.pokeImagen{
+    
+    margin-top: 50px;
+    margin-left: 320px;
+    
+}
+
+.botonBuscador{
+    margin-top: 50px;
+    margin-left: 360px;
+}
+
+.datos{
+    margin-left: 800px;
+    margin-top: -400px;
+}
